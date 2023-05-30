@@ -14,6 +14,7 @@ public class DemoApplication {
 	@PostConstruct
 	public void intt(){
 		logger.info("Application started...");
+		logger.info("Inside application started...");
 	}
 
 	public static void main(String[] args) {
